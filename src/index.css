@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-void: #0b0b0d;
+    --bg-obsidian: #1a1a1e;
+    --border-steel: #2c2c32;
+    --ink-black: #08080a;
+    --paper-cream: #f5f2eb;
+    --paper-aged: #ebe6dc;
+    --paper-muted: #c9c2b4;
+    --crimson-slash: #d93829;
+  }
+
+  body {
+    background-color: var(--bg-void);
+    color: var(--paper-cream);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    user-select: none;
+    -webkit-user-select: none;
+    overflow-x: hidden;
+  }
+}
+
+/* Hide scrollbars during pure reading mode */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Technical crosshair grid background */
+.bg-grid-blueprint {
+  background-image: 
+    linear-gradient(to right, rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}

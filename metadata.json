@@ -1,0 +1,8 @@
+{
+  "name": "MIHIRAKI",
+  "description": "Ultra-minimalist, neo-brutalist manga reader with stealth HUD, aspect-ratio double-page spread detection, and multi-format support for PDF, CBZ, ZIP, and Google Drive.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
